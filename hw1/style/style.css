@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+
+.block1{
+    background-color: LightGrey;
+    padding: 10px;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.block2{
+    background-color: #34495E;
+    border-radius: 20px;
+    padding: 10px 21px;
+    margin: 15px;
+    color: white;
+    font-size: 90%;
+}
