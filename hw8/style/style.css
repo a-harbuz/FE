@@ -1,0 +1,62 @@
+*{
+    /* Шаблон обнуления */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* color: black; */
+}
+/* ============================================= */
+
+#existingElement{
+    width: 50px;
+    aspect-ratio: 1;
+    background-color: blue;
+}
+
+#parentElement{
+    margin-left: 20px;
+}
+
+.removeMe{
+    width: 200px;
+    height: 75px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.maindiv{
+    width: 100%;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    width: 200px;
+    height: 280px;
+    /* border: 3px solid blue; */
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titlediv{
+    height: 80%;
+    border: 3px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.captiondiv{
+    height: 20%;
+}
+.captiondiv p{
+    display: flex;
+    justify-content: center;
+}
